@@ -27,6 +27,6 @@ struct CircleButtonView_Previews: PreviewProvider {
             .previewLayout(.sizeThatFits)
         CircleButtonView(iconName: "heart.fill")
             .previewLayout(.sizeThatFits)
-            .colorScheme(.dark)
+            .preferredColorScheme(.dark)
     }
 }
