@@ -18,6 +18,7 @@
 		48AF36DF2950DE72009349B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AF36DE2950DE72009349B1 /* Assets.xcassets */; };
 		48AF36E22950DE72009349B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AF36E12950DE72009349B1 /* Preview Assets.xcassets */; };
 		48AF36EA2950F4D0009349B1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF36E92950F4D0009349B1 /* Color.swift */; };
+		48E1E7192954F3B7003CE406 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1E7182954F3B7003CE406 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		48AF36DE2950DE72009349B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48AF36E12950DE72009349B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48AF36E92950F4D0009349B1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		48E1E7182954F3B7003CE406 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		4829026B29511ECA00514B73 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				48E1E7182954F3B7003CE406 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				4829026D29511EEC00514B73 /* HomeView.swift in Sources */,
 				48AF36DB2950DE6F009349B1 /* CryptoTrackerApp.swift in Sources */,
 				482902732951259200514B73 /* CircleButtonAnimationView.swift in Sources */,
+				48E1E7192954F3B7003CE406 /* HomeViewModel.swift in Sources */,
 				48290271295120B800514B73 /* CircleButtonView.swift in Sources */,
 				4829027629512A5600514B73 /* CoinModel.swift in Sources */,
 				488B16A62952498E00D7D0A3 /* PreviewProvider.swift in Sources */,
