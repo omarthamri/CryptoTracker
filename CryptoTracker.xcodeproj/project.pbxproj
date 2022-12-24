@@ -25,6 +25,8 @@
 		48AF36EA2950F4D0009349B1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF36E92950F4D0009349B1 /* Color.swift */; };
 		48E1E7192954F3B7003CE406 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1E7182954F3B7003CE406 /* HomeViewModel.swift */; };
 		48FA4AA629574DBB001F4E6A /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA4AA529574DBB001F4E6A /* LocalFileManager.swift */; };
+		48FA4AA829576107001F4E6A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA4AA729576107001F4E6A /* SearchBarView.swift */; };
+		48FA4AAA29576AE5001F4E6A /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA4AA929576AE5001F4E6A /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		48AF36E92950F4D0009349B1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		48E1E7182954F3B7003CE406 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		48FA4AA529574DBB001F4E6A /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		48FA4AA729576107001F4E6A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		48FA4AA929576AE5001F4E6A /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 			children = (
 				481A9CAE295650FE0007F8C3 /* CoinImageView */,
 				4829026F2951209700514B73 /* CircleButton */,
+				48FA4AA729576107001F4E6A /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				48AF36E92950F4D0009349B1 /* Color.swift */,
 				488B16A52952498E00D7D0A3 /* PreviewProvider.swift */,
 				488B16A72952591800D7D0A3 /* Double.swift */,
+				48FA4AA929576AE5001F4E6A /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FA4AAA29576AE5001F4E6A /* UIApplication.swift in Sources */,
 				486BCB6129569CFE005CD32C /* CoinImageViewModel.swift in Sources */,
 				481A9CB0295651200007F8C3 /* CoinImageView.swift in Sources */,
 				4829026D29511EEC00514B73 /* HomeView.swift in Sources */,
@@ -282,6 +289,7 @@
 				488A6304295534FE00A40117 /* NetworkingManager.swift in Sources */,
 				48AF36EA2950F4D0009349B1 /* Color.swift in Sources */,
 				486BCB5F29569951005CD32C /* CoinImageService.swift in Sources */,
+				48FA4AA829576107001F4E6A /* SearchBarView.swift in Sources */,
 				488A63012955225F00A40117 /* CoinDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
