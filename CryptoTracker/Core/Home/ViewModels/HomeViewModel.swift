@@ -11,6 +11,12 @@ import SwiftUI
 
 class HomeViewModel: ObservableObject {
     
+     @Published var statistics: [StatisticModel] = [
+        StatisticModel(title: "title", value: "value", percentageChange: 2),
+        StatisticModel(title: "title", value: "value"),
+        StatisticModel(title: "title", value: "value"),
+        StatisticModel(title: "title", value: "value", percentageChange: -2)
+        ]
     @Published var allCoins: [CoinModel] = []
     @Published var portfolioCoins: [CoinModel] = []
     private let dataService = CoinDataService()
@@ -22,8 +28,9 @@ class HomeViewModel: ObservableObject {
     }
     
     func addSubscribers() {
+        //dataService.$allCoins
         // updates allcoins
-        $searchText.combineLatest($allCoins)
+        $searchText.combineLatest(dataService.$allCoins)
             .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
             .map(filterCoins)
             .sink { [weak self] (returnedCoins) in
@@ -33,7 +40,7 @@ class HomeViewModel: ObservableObject {
     }
     
     private func filterCoins(text: String,coins: [CoinModel]) -> [CoinModel] {
-        
+        print("aaaaaaa\(coins)")
         guard !text.isEmpty else { return coins }
         let lowercasedText = text.lowercased()
         return coins.filter { coin -> Bool in
