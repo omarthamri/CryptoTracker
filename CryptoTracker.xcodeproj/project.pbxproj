@@ -24,6 +24,7 @@
 		48AF36E22950DE72009349B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AF36E12950DE72009349B1 /* Preview Assets.xcassets */; };
 		48AF36EA2950F4D0009349B1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF36E92950F4D0009349B1 /* Color.swift */; };
 		48E1E7192954F3B7003CE406 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1E7182954F3B7003CE406 /* HomeViewModel.swift */; };
+		48FA4AA629574DBB001F4E6A /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA4AA529574DBB001F4E6A /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		48AF36E12950DE72009349B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48AF36E92950F4D0009349B1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		48E1E7182954F3B7003CE406 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		48FA4AA529574DBB001F4E6A /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				488A6303295534FE00A40117 /* NetworkingManager.swift */,
+				48FA4AA529574DBB001F4E6A /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				482902732951259200514B73 /* CircleButtonAnimationView.swift in Sources */,
 				48E1E7192954F3B7003CE406 /* HomeViewModel.swift in Sources */,
 				48290271295120B800514B73 /* CircleButtonView.swift in Sources */,
+				48FA4AA629574DBB001F4E6A /* LocalFileManager.swift in Sources */,
 				4829027629512A5600514B73 /* CoinModel.swift in Sources */,
 				488B16A62952498E00D7D0A3 /* PreviewProvider.swift in Sources */,
 				488B16A4295248EE00D7D0A3 /* CoinRowView.swift in Sources */,
