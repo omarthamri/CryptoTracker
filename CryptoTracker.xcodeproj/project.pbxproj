@@ -19,6 +19,9 @@
 		483248652957DD8600972C44 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483248642957DD8600972C44 /* MarketDataService.swift */; };
 		486BCB5F29569951005CD32C /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486BCB5E29569951005CD32C /* CoinImageService.swift */; };
 		486BCB6129569CFE005CD32C /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486BCB6029569CFE005CD32C /* CoinImageViewModel.swift */; };
+		48771F362958C3E900A06279 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48771F352958C3E900A06279 /* PortfolioView.swift */; };
+		48771F382958C80B00A06279 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48771F372958C80B00A06279 /* XMarkButton.swift */; };
+		48771F3B2958CDFF00A06279 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48771F3A2958CDFF00A06279 /* CoinLogoView.swift */; };
 		488A63012955225F00A40117 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A63002955225F00A40117 /* CoinDataService.swift */; };
 		488A6304295534FE00A40117 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6303295534FE00A40117 /* NetworkingManager.swift */; };
 		488B16A4295248EE00D7D0A3 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B16A3295248EE00D7D0A3 /* CoinRowView.swift */; };
@@ -47,6 +50,10 @@
 		483248642957DD8600972C44 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		486BCB5E29569951005CD32C /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		486BCB6029569CFE005CD32C /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		48771F352958C3E900A06279 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		48771F372958C80B00A06279 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
+		48771F392958CCB500A06279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		48771F3A2958CDFF00A06279 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		488A63002955225F00A40117 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		488A6303295534FE00A40117 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		488B16A3295248EE00D7D0A3 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
@@ -79,6 +86,7 @@
 			children = (
 				481A9CAF295651200007F8C3 /* CoinImageView.swift */,
 				486BCB6029569CFE005CD32C /* CoinImageViewModel.swift */,
+				48771F3A2958CDFF00A06279 /* CoinLogoView.swift */,
 			);
 			path = CoinImageView;
 			sourceTree = "<group>";
@@ -107,6 +115,7 @@
 				4829026C29511EEC00514B73 /* HomeView.swift */,
 				4823F93E2957A71700C6A2BD /* HomeStatsView.swift */,
 				488B16A3295248EE00D7D0A3 /* CoinRowView.swift */,
+				48771F352958C3E900A06279 /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 				4829026F2951209700514B73 /* CircleButton */,
 				48FA4AA729576107001F4E6A /* SearchBarView.swift */,
 				4823F93C2957A12400C6A2BD /* StatisticsView.swift */,
+				48771F372958C80B00A06279 /* XMarkButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -187,6 +197,7 @@
 		48AF36D92950DE6F009349B1 /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
+				48771F392958CCB500A06279 /* Info.plist */,
 				488A6302295534B800A40117 /* Utilities */,
 				48AF36E82950F4BF009349B1 /* Extensions */,
 				488A62FF295521F400A40117 /* Services */,
@@ -290,11 +301,13 @@
 			files = (
 				4823F93A29579D0A00C6A2BD /* StatisticModel.swift in Sources */,
 				483248652957DD8600972C44 /* MarketDataService.swift in Sources */,
+				48771F3B2958CDFF00A06279 /* CoinLogoView.swift in Sources */,
 				4823F93D2957A12400C6A2BD /* StatisticsView.swift in Sources */,
 				48FA4AAA29576AE5001F4E6A /* UIApplication.swift in Sources */,
 				486BCB6129569CFE005CD32C /* CoinImageViewModel.swift in Sources */,
 				481A9CB0295651200007F8C3 /* CoinImageView.swift in Sources */,
 				4829026D29511EEC00514B73 /* HomeView.swift in Sources */,
+				48771F362958C3E900A06279 /* PortfolioView.swift in Sources */,
 				48AF36DB2950DE6F009349B1 /* CryptoTrackerApp.swift in Sources */,
 				482902732951259200514B73 /* CircleButtonAnimationView.swift in Sources */,
 				48E1E7192954F3B7003CE406 /* HomeViewModel.swift in Sources */,
@@ -308,6 +321,7 @@
 				488B16A82952591800D7D0A3 /* Double.swift in Sources */,
 				488A6304295534FE00A40117 /* NetworkingManager.swift in Sources */,
 				48AF36EA2950F4D0009349B1 /* Color.swift in Sources */,
+				48771F382958C80B00A06279 /* XMarkButton.swift in Sources */,
 				486BCB5F29569951005CD32C /* CoinImageService.swift in Sources */,
 				48FA4AA829576107001F4E6A /* SearchBarView.swift in Sources */,
 				488A63012955225F00A40117 /* CoinDataService.swift in Sources */,
@@ -441,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoTracker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,6 +485,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoTracker/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
