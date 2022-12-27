@@ -20,7 +20,19 @@ class PortfolioDataService {
             if let error = error {
                 print("error loading core data \(error)")
             }
-            
+            self.getPortfolio()
+        }
+    }
+    
+    func updatePortfolio(coin: CoinModel,amount:Double) {
+        if let entity = savedEntities.first(where: {$0.coinID == coin.id}) {
+            if amount > 0 {
+                update(entity: entity, amount: amount)
+            } else {
+                delete(entity: entity)
+            }
+        } else {
+            add(coin: coin, amount: amount)
         }
     }
     
@@ -37,6 +49,16 @@ class PortfolioDataService {
         let entity = PortfolioEntity(context: container.viewContext)
         entity.coinID = coin.id
         entity.amount = amount
+        applyChanges()
+    }
+    
+    private func update(entity: PortfolioEntity,amount: Double) {
+        entity.amount = amount
+        applyChanges()
+    }
+    
+    private func delete(entity: PortfolioEntity) {
+        container.viewContext.delete(entity)
         applyChanges()
     }
     
