@@ -18,11 +18,14 @@ struct CryptoTrackerApp: App {
     
     var body: some Scene {
         WindowGroup {
+            ZStack {
             NavigationView {
                 HomeView()
                     .navigationBarHidden(true)
             }
             .environmentObject(vm)
+            LaunchView()
+            }
         }
     }
 }
